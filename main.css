@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    border: 2px solid #ddd;
+    margin: 50px auto;
+}
+.parent h1{
+    color: #000;
+    position: absolute;
+    left: 70%;
+    top: 10%;
+}
+.frame{
+width: 400px;
+    height: 270px;
+    border: 10px solid #f88992;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+img{
+    width: 430px;
+        height: 190px;
+        position: absolute;
+        left: 15%;
+        top: 15%;
+}
+.square{
+width: 50px;
+    width: 30px;
+    height: 30px;
+    border: 4px solid #f88992;
+    position: absolute;
+    left: 65%;
+    top: 35%;
+    z-index: 2;
+}
+.square::after{
+content: "";
+    width: 50px;
+    height: 4px;
+    background-color: #f88992;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 3;
+}
+.about{
+color: #f88992;
+    font-weight: bold;
+    position: absolute;
+    left: 73%;
+    top: 34%;
+    font-size: 35px;
+}
+.one{
+    width: 170px;
+        height: 170px;
+        border: 1px solid #ddd;
+        position: absolute;
+        left: 50%;
+        top: 60%;
+}
+.one .first{
+    width: 0;
+        height: 0;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent #f88992 transparent;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        position: absolute;
+        left: 88%;
+        top: -7%;
+}
+.one .second{
+ color: #f88992;
+ font-size: 40px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform:translate(-50%,-50%) ;
+ -webkit-transform:translate(-50%,-50%) ;
+ -moz-transform:translate(-50%,-50%) ;
+ -ms-transform:translate(-50%,-50%) ;
+ -o-transform:translate(-50%,-50%) ;
+}
+.one .third{
+font-size: 55px;
+    color: #ddd;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    font-weight: bolder;
+    opacity: 0.8;
+    z-index: -2;
+}
+.one .fourth{
+position: absolute;
+    left: 10%;
+    top: 72%;
+    font-weight: bold;
+    font-size: 25px;
+    color: #444
+}
+.two{
+    width: 170px;
+        height: 170px;
+        border: 1px solid #ddd;
+        position: absolute;
+        left: 65%;
+        top: 60%;
+}
+.two .first{
+    width: 0;
+        height: 0;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent #f88992 transparent;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        position: absolute;
+        left: 88%;
+        top: -7%;
+}
+.two .second{
+ color: #f88992;
+ font-size: 40px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform:translate(-50%,-50%) ;
+ -webkit-transform:translate(-50%,-50%) ;
+ -moz-transform:translate(-50%,-50%) ;
+ -ms-transform:translate(-50%,-50%) ;
+ -o-transform:translate(-50%,-50%) ;
+}
+.two .third{
+font-size: 55px;
+    color: #ddd;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    font-weight: bolder;
+    opacity: 0.8;
+    z-index: -2;
+}
+.two .fourth{
+position: absolute;
+    left: 22%;
+    top: 72%;
+    font-weight: bold;
+    font-size: 25px;
+    color: #444
+}
+.three{
+    width: 170px;
+        height: 170px;
+        border: 1px solid #ddd;
+        position: absolute;
+        left: 80%;
+        top: 60%;
+}
+.three .first{
+    width: 0;
+        height: 0;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent #f88992 transparent;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        position: absolute;
+        left: 88%;
+        top: -7%;
+}
+.three .second{
+ color: #f88992;
+ font-size: 40px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform:translate(-50%,-50%) ;
+ -webkit-transform:translate(-50%,-50%) ;
+ -moz-transform:translate(-50%,-50%) ;
+ -ms-transform:translate(-50%,-50%) ;
+ -o-transform:translate(-50%,-50%) ;
+}
+.three .third{
+font-size: 55px;
+    color: #ddd;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    font-weight: bolder;
+    opacity: 0.8;
+    z-index: -2;
+}
+.three .fourth{
+position: absolute;
+    left: 22%;
+    top: 72%;
+    font-weight: bold;
+    font-size: 25px;
+    color: #444
+}
